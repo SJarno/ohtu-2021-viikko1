@@ -115,7 +115,7 @@ public class VarastoTest {
     public void ottaminenLisääTilaa() {
         varasto.lisaaVarastoon(8);
 
-        varasto.otaVarastosta(1);
+        varasto.otaVarastosta(2);
 
         // varastossa pitäisi olla tilaa 10 - 8 + 2 eli 4
         assertEquals(4, varasto.paljonkoMahtuu(), vertailuTarkkuus);
